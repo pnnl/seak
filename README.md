@@ -73,7 +73,7 @@ use as reference implementations.
 Details
 =============================================================================
 
-**SEAK Specification**
+**SEAK Specification**:
   - doc/SEAK-Specification.pdf (https://gitlab.pnnl.gov/perf-lab-hub/seak/seak-suite/-/blob/master/doc/SEAK-Specification.pdf)
   - Nitin A. Gawande, Seunghwa Kang, Joseph B. Manzano, Nathan R. Tallent, Darren J. Kerbyson, Adolfy Hoisie.  "SEAK Specification." Pacific Northwest National Laboratory. May 2016.
 
