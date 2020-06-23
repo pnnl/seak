@@ -6,7 +6,7 @@ $Id$
 Suite for Embedded Applications and Kernels (SEAK)
 =============================================================================
 
-**Home**: 
+**Home**:
   - http://hpc.pnnl.gov/SEAK/
   - https://gitlab.pnnl.gov/perf-lab-hub/seak
 
@@ -52,6 +52,10 @@ implementations, when available we include representative solutions to
 use as reference implementations.
 
 
+**Citation**:
+  > Nathan R. Tallent, Joseph B. Manzano, Nitin A. Gawande, Seunghwa Kang, Darren J. Kerbyson, Adolfy Hoisie, and Joseph K. Cross. Algorithm and architecture independent benchmarking with SEAK. In Proc. of the 30th IEEE Intl Parallel and Distributed Processing Symp. IEEE Computer Society, May 2016. https://doi.org/10.1109/IPDPS.2016.25
+
+
 **Contacts**: (_firstname_._lastname_@pnnl.gov)
   - Joseph Manzano
   - Nathan R. Tallent
@@ -66,14 +70,10 @@ use as reference implementations.
   - Adolfy Hoisie (PNNL)
 
 
-References
------------------------------------------------------------------------------
+Details
+=============================================================================
 
-* Paper:
-
-  Nathan R. Tallent, Joseph B. Manzano, Nitin A. Gawande, Seunghwa Kang, Darren J. Kerbyson, Adolfy Hoisie, and Joseph K. Cross. Algorithm and architecture independent benchmarking with SEAK. In Proc. of the 30th IEEE Intl Parallel and Distributed Processing Symp. IEEE Computer Society, May 2016.
-
-* SEAK Specification (within doc/ directory)
-
-  Nitin A. Gawande, Seunghwa Kang, Joseph B. Manzano, Nathan R. Tallent, Darren J. Kerbyson, Adolfy Hoisie.  "SEAK Specification." Pacific Northwest National Laboratory. May 2016.
+**SEAK Specification**
+  - doc/SEAK-Specification.pdf (https://gitlab.pnnl.gov/perf-lab-hub/seak/seak-suite/-/blob/master/doc/SEAK-Specification.pdf)
+  - Nitin A. Gawande, Seunghwa Kang, Joseph B. Manzano, Nathan R. Tallent, Darren J. Kerbyson, Adolfy Hoisie.  "SEAK Specification." Pacific Northwest National Laboratory. May 2016.
 
