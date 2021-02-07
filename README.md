@@ -11,6 +11,13 @@ Suite for Embedded Applications and Kernels (SEAK)
   - https://gitlab.pnnl.gov/perf-lab-hub/seak
 
 
+**Abstract**: The SEAK Suite is collection of constraining problems for
+common embedded computing challenges. A constraining problem is a
+mission-centric and goal-oriented problem specifications that separate
+problem-domain constraints from solution implementations so as to
+encourage creative solutions that meet goals but that may deviate from
+standard implementations.
+
 **About**: Many applications of high performance embedded computing
 are limited by performance or power bottlenecks. Consider a mobile
 imaging system that recognizes faces from an array of cameras. Because
@@ -25,21 +32,23 @@ capture the key input and output requirements without biasing toward
 specific algorithms or architectures?
 
 The SEAK benchmark suite generalizes this question. The benchmark
-suite is a collection of *constraining problems* --- application
-bottlenecks --- that capture common embedded application
-bottlenecks. We have designed SEAK's constraining problems (a) to
-capture these bottlenecks in a way that encourages creative solutions;
-and (b) to facilitate rigorous, objective, end-user evaluation for
-their solutions. To avoid biasing solutions toward existing
-algorithms, SEAK constraining problems use a *mission-centric*
-(abstracted from a particular algorithm) and goal-oriented
-(functional) specification. To encourage solutions that are any
-combination of software or hardware, we use an end-user black-box
-evaluation that can capture tradeoffs between performance, power,
-accuracy, size, and weight. The tradeoffs are especially informative
-for procurement decisions. We call our benchmarks *future proof*
-because each mission-centric interface and evaluation remains useful
-despite shifting algorithmic preferences.
+suite is a collection of *constraining problems* for common embedded
+computing challenges.  A constraining problem is a goal-oriented
+problem specification that separate problem-domain constraints from
+solution implementations so as to encourage creative solutions that
+meet goals but that may deviate from standard implementations.
+Further, a constraining problem is defined so as to facilitate
+rigorous, objective, end-user evaluation for their solutions.
+
+To avoid biasing solutions toward existing algorithms, SEAK
+constraining problems use a *mission-centric* (abstracted from a
+particular algorithm) and goal-oriented (functional) specification. To
+encourage solutions that are any combination of software or hardware,
+we use an end-user black-box evaluation that can capture tradeoffs
+between performance, power, accuracy, size, and weight. The tradeoffs
+are especially informative for procurement decisions. We call our
+benchmarks *future proof* because each mission-centric interface and
+evaluation remains useful despite shifting algorithmic preferences.
 
 This distribution contains the SEAK constraining problems. A
 constraining problem consists of a specification document and a source
