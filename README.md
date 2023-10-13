@@ -86,3 +86,27 @@ Details
   - doc/SEAK-Specification.pdf (https://gitlab.pnnl.gov/perf-lab/seak/seak-suite/-/blob/master/doc/SEAK-Specification.pdf)
   - Nitin A. Gawande, Seunghwa Kang, Joseph B. Manzano, Nathan R. Tallent, Darren J. Kerbyson, Adolfy Hoisie.  "SEAK Specification." Pacific Northwest National Laboratory. May 2016.
 
+
+Preparing large files
+=============================================================================
+
+*Note*: For migration to GitHub, the sample input/output files over 100 MB have been split. 
+
+To recover them:
+```sh
+  for fnm_first in $(find . -name "*.split-aa") ; do
+    fnm_base=${fnm_first%.split-aa}
+    echo "*** Building ${fnm_base}"
+    cat ${fnm_base}.split-* > ${fnm_base}
+  done
+  ```
+
+To clean them:
+  ```sh
+  find . -name "*.bin" -size +100M -exec rm '{}' \;
+  ```
+
+To generate them:
+  ```sh
+  find . -name "*.bin" -size +100M -exec split -b 99MiB  '{}' '{}'.split- \;
+  ```
