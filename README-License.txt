@@ -1,6 +1,6 @@
-	  Suite for Embedded Applications and Kernels (SEAK)
-		      http://hpc.pnnl.gov/SEAK/
-	   Copyright (c) 2016, Battelle Memorial Institute
+          Suite for Embedded Applications and Kernels (SEAK)
+                         github.com/pnnl/seak
+           Copyright (c) 2016, Battelle Memorial Institute
 
 1. Battelle Memorial Institute (hereinafter Battelle) hereby grants
    permission to any person or entity lawfully obtaining a copy of
