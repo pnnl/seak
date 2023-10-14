@@ -5,9 +5,8 @@ Suite for Embedded Applications and Kernels (SEAK)
 =============================================================================
 
 **Home**:
-  - http://hpc.pnnl.gov/SEAK/
   - https://hpc.pnnl.gov/SEAK/
-
+  - https://github.com/pnnl/seak
 
 **Abstract**: The SEAK Suite is collection of constraining problems for
 common embedded computing challenges. A constraining problem is a
