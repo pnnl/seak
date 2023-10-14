@@ -6,7 +6,7 @@ Suite for Embedded Applications and Kernels (SEAK)
 
 **Home**:
   - http://hpc.pnnl.gov/SEAK/
-  - https://gitlab.pnnl.gov/perf-lab/seak
+  - https://hpc.pnnl.gov/SEAK/
 
 
 **Abstract**: The SEAK Suite is collection of constraining problems for
