@@ -1,7 +1,5 @@
--*-Mode: markdown;-*-
-
-$Id$
-
+<!-- -*-Mode: markdown;-*- -->
+<!-- $Id$ -->
 
 Suite for Embedded Applications and Kernels (SEAK)
 =============================================================================
